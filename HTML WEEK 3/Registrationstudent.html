@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <title>STUDENT REGISTRATION FORM</title>
+    <head>
+        <body>
+            <form action="studentdata/php" method="post" enctype="application/x-www-form-urlencoded">
+                <label>Name</label>
+                <input type="text" id="name"  name="Student name"> 
+                <br>
+                <label>Date of birth </label>
+                <input type="date" id="date"  name="date of birth">
+                <br>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio"  name="gender" id="male" value="Male">
+                    <label for="male">male</label>
+                    <br>
+                    <input type="radio"  name="gender" id="female" value="Female">
+                    <label for="female">female</label>
+                    <br>
+                    <input type="radio" name="gender" id="Prefer not to say" value="Prefer not to say">
+                    <label for="Prefer not to say">Prefer not to say</label>
+                </fieldset>
+                <br>
+                <label>Address</label>
+                <input type="text" id="address"  name="address">
+                <br>
+                <label>Telephone</label>
+                <input type="tel" id="telephone" name="Telephone" >
+                <br>
+                <label>Email address</label>
+                <input type="email" id="Email address" name="Email adress">
+                <br>
+                <label>Course</label>
+                <input type="text" id="course" name="Course">
+                <br>
+                
+                <hr>
+                <input type="reset" id="Cancel" name="Cancel" onclick="" value="Cancel">
+                <input type="submit" value="register" name="Register">
+            </form>
+        </body>
+
+    </head>
+
+</html>

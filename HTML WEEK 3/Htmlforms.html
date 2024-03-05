@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FORMS IN HTML</title>
+
+    </head>
+    <body>
+        <form action="scripts/data.php" method="post"  enctype="application/x-www-form-urlencoded">
+           <label> Name</label>
+            <input type="text" name="student loan" id="student name">
+            <label>  Email</label>
+            <input type="email" name="email address" id="Email address">
+            <br>
+           
+            <textarea name="bio" id="please enter your bio" rows="5" cols="35" value="Bio">
+                
+            </textarea>
+            <br>
+            <input type="checkbox" name="subjects" id="subjects" value="math" checked="math">
+            <label for="math">math</label>
+            <br>
+            <input type="checkbox" name="subjects" id="subjects" value="english">
+            <label for="english">english</label>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio"  name="gender" id="male" value="male">
+                <label for="male">male</label>
+                <br>
+                <input type="radio"  name="gender" id="female" value="female">
+                <label for="female">female</label>
+
+        
+            </fieldset>
+            <select name="classes" id="classes" multiple >
+                <option value="physical">physical</option>
+                <option value="virtual">virtual</option>
+                <option value="physical">physical</option>
+
+
+
+            </select>
+            <br>
+            <label>passport photo</label>
+            <input type="file" name="passport photo" id="passport photo" accept=".jpeg">
+            <br>
+            <hr>
+            <input type="button" id="ok" value="Ok" onclick="">
+            <input type="reset" id="clear" name="clear" value="clear"> 
+            <input type="submit" id="submit" name="submit" value="apply">
+
+
+            
+
+
+
+
+        </form>
+
+
+    </body>
+
+
+</html>
+
